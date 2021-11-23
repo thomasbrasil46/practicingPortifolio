@@ -4,3 +4,7 @@ Projeto feito com o intuito de praticar desenvolvimento Front-end. // Mentor: Jo
 ## Tarefas
 
 O controle das tarefas desse projeto será realizado no GitHub
+
+## Update
+
+:arrow_up: Update
