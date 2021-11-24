@@ -140,11 +140,16 @@ header{
 
 .menu-item{
     text-align: center;
+    margin-bottom: .5rem;
 }
 
 .menu-link{
     font-family: var(--font-action);
     font-size: 2rem;
     color: #555;
+}
+
+.menu-link:hover{
+    color: #e62d15e3;
 }
 
