@@ -498,8 +498,8 @@ header{
 .sessao-orcamento{
     width: 100%;
     height: 100vh;
-    background-image: url("./Imagens/bg-orcamento.jpg");
-    object-fit: cover;
+    background: rgba(0, 0, 0, 0.9) url('./Imagens/background-orcamento.jpg');
+    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -518,9 +518,7 @@ header{
     position: absolute;
     top: -2.5rem;
     left: 2rem;
-    background-color: #e62d15e3;  
-    background: -webkit-linear-gradient(to right, #e62d15e3, #ffefdc); 
-    background: linear-gradient(to right, #e62d15e3, #ffefdc);
+    background-color: #bd2924;  
     padding: 0 3rem;
     color: #fff;
     font-family: var(--font-primary);
@@ -528,6 +526,10 @@ header{
     font-weight: lighter;
     box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+}
+
+.sessao-orcamento h1:hover{
+    background-color: #db302a;
 }
 
 .sessao-orcamento form{
@@ -539,13 +541,13 @@ header{
 }
 
 .sessao-orcamento label{
-    font-family: var(--font-secondary);
+    font-family: var(--font-action);
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 .sessao-orcamento input[type="number"]{
-    font-family: var(--font-secondary);
+    font-family: var(--font-action);
     width: 4rem;
     font-size: 2rem;
     outline: none;
