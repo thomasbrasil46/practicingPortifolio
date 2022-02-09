@@ -551,6 +551,15 @@ header{
     width: 4rem;
     font-size: 2rem;
     outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 0.3rem;
+}
 
+.btn-orcamento{
+    text-transform: uppercase;
+    padding: 1rem;
+    cursor: pointer;
+    grid-column: 2;
 }
 
